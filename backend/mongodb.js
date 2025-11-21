@@ -1,0 +1,9 @@
+import "dotenv/config"
+import mongoose from "mongoose";
+
+mongoose
+  .connect(process.env.MONGO_URI)
+  .then(() => console.log("Connected.."))
+  .catch((err) => console.log(err));
+
+export default mongoose;
