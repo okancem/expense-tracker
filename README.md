@@ -19,4 +19,4 @@ A full-stack expense tracking application built with the **MERN stack**. Users c
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/expense-tracker.git
+git clone https://github.com/okancem/expense-tracker.git
